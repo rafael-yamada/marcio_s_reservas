@@ -1,0 +1,87 @@
+body {
+    min-height: 101vh;
+}
+
+.top-menu,
+.barra-procura,
+.footer,
+.card-header,
+.botao-estilo {
+    background-color: rgb(168, 110, 110);
+    color: rgb(255, 255, 255);
+}
+
+.botao-estilo {
+    border-color: brown;
+}
+
+.barra-procura {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0.5%;
+    position: relative;
+    top: -3em;
+    border-radius: 10px;
+}
+
+.top-menu-title {
+    /*padding-top: 1%;
+    padding-bottom: 0.5%;*/
+    padding-left: 4%;
+}
+
+.navbar-nav {
+    width: 50%;
+}
+
+.top-menu-item {
+    /*padding-top: 1%;
+    padding-bottom: 0.5%;*/
+    /*border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgb(255, 255, 255);*/
+    font-size: 1rem;
+    width: 25%;
+}
+
+.top-menu-icon {
+    width: 20px;
+    height: auto;
+}
+
+.top-menu-icon-user-logged {
+    width: 20px;
+    height: auto;
+}
+
+.top-menu-logged {
+    font-size: 1rem;
+}
+
+.login-card {
+    position: relative;
+    top: -5em;
+}
+
+.container-barra-procura {
+    height: 5em;
+}
+
+.second-line-show-room {
+    font-size: 0.9rem;
+}
+
+.show-room-capacity {
+    border-top: 1px dotted rgba(168, 110, 110, 0.651);
+    border-bottom: 1px dotted rgba(168, 110, 110, 0.651);
+}
+
+.sticky {
+    position: relative;
+    height: 0;
+    overflow-y: visible;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
